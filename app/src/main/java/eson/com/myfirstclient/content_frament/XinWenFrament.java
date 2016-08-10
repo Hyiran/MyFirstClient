@@ -69,43 +69,43 @@ public class XinWenFrament extends Fragment {
         TouTiaoFrament caijing = new TouTiaoFrament();
         Bundle bundlecaijing = new Bundle();
         bundletiyu.putString("xinwendaohang","财经");
-        tiyu.setArguments(bundlecaijing);
+        caijing.setArguments(bundlecaijing);
         xinwen_framentlist.add(caijing);
 
         TouTiaoFrament keji = new TouTiaoFrament();
         Bundle bundlekeji = new Bundle();
         bundletiyu.putString("xinwendaohang", "科技");
-        tiyu.setArguments(bundlekeji);
+        keji.setArguments(bundlekeji);
         xinwen_framentlist.add(keji);
 
         TouTiaoFrament shishang = new TouTiaoFrament();
         Bundle bundleshishang = new Bundle();
         bundletiyu.putString("xinwendaohang","时尚");
-        tiyu.setArguments(bundleshishang);
+        shishang.setArguments(bundleshishang);
         xinwen_framentlist.add(shishang);
 
         TouTiaoFrament lishi = new TouTiaoFrament();
         Bundle bundlelishi = new Bundle();
         bundletiyu.putString("xinwendaohang","历史");
-        tiyu.setArguments(bundlelishi);
+        lishi.setArguments(bundlelishi);
         xinwen_framentlist.add(lishi);
 
         TouTiaoFrament caipiao = new TouTiaoFrament();
         Bundle bundlecaipiao = new Bundle();
         bundletiyu.putString("xinwendaohang","彩票");
-        tiyu.setArguments(bundlecaipiao);
+        caipiao.setArguments(bundlecaipiao);
         xinwen_framentlist.add(caipiao);
 
         TouTiaoFrament junshi = new TouTiaoFrament();
         Bundle bundlejunshi = new Bundle();
         bundletiyu.putString("xinwendaohang","军事");
-        tiyu.setArguments(bundlejunshi);
+        junshi.setArguments(bundlejunshi);
         xinwen_framentlist.add(junshi);
 
         TouTiaoFrament youxi = new TouTiaoFrament();
         Bundle bundleyouxi = new Bundle();
         bundletiyu.putString("xinwendaohang","游戏");
-        tiyu.setArguments(bundleyouxi);
+        youxi.setArguments(bundleyouxi);
         xinwen_framentlist.add(youxi);
     }
 
