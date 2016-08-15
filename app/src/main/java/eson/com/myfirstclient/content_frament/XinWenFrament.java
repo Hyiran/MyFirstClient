@@ -68,43 +68,43 @@ public class XinWenFrament extends Fragment {
 
         TouTiaoFrament caijing = new TouTiaoFrament();
         Bundle bundlecaijing = new Bundle();
-        bundletiyu.putString("xinwendaohang","财经");
+        bundlecaijing.putString("xinwendaohang","财经");
         caijing.setArguments(bundlecaijing);
         xinwen_framentlist.add(caijing);
 
         TouTiaoFrament keji = new TouTiaoFrament();
         Bundle bundlekeji = new Bundle();
-        bundletiyu.putString("xinwendaohang", "科技");
+        bundlekeji.putString("xinwendaohang", "科技");
         keji.setArguments(bundlekeji);
         xinwen_framentlist.add(keji);
 
         TouTiaoFrament shishang = new TouTiaoFrament();
         Bundle bundleshishang = new Bundle();
-        bundletiyu.putString("xinwendaohang","时尚");
+        bundleshishang.putString("xinwendaohang","时尚");
         shishang.setArguments(bundleshishang);
         xinwen_framentlist.add(shishang);
 
         TouTiaoFrament lishi = new TouTiaoFrament();
         Bundle bundlelishi = new Bundle();
-        bundletiyu.putString("xinwendaohang","历史");
+        bundlelishi.putString("xinwendaohang","历史");
         lishi.setArguments(bundlelishi);
         xinwen_framentlist.add(lishi);
 
         TouTiaoFrament caipiao = new TouTiaoFrament();
         Bundle bundlecaipiao = new Bundle();
-        bundletiyu.putString("xinwendaohang","彩票");
+        bundlecaipiao.putString("xinwendaohang","彩票");
         caipiao.setArguments(bundlecaipiao);
         xinwen_framentlist.add(caipiao);
 
         TouTiaoFrament junshi = new TouTiaoFrament();
         Bundle bundlejunshi = new Bundle();
-        bundletiyu.putString("xinwendaohang","军事");
+        bundlejunshi.putString("xinwendaohang","军事");
         junshi.setArguments(bundlejunshi);
         xinwen_framentlist.add(junshi);
 
         TouTiaoFrament youxi = new TouTiaoFrament();
         Bundle bundleyouxi = new Bundle();
-        bundletiyu.putString("xinwendaohang","游戏");
+        bundleyouxi.putString("xinwendaohang","游戏");
         youxi.setArguments(bundleyouxi);
         xinwen_framentlist.add(youxi);
     }
