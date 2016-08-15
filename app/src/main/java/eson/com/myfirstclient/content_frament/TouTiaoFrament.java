@@ -141,6 +141,4 @@ public class TouTiaoFrament extends Fragment {
         toutiao_adapter.setToutiao_list(toutiao_list);
     }
 
-    public void setArguments(Bundle bundletoutiao) {
-    }
 }
